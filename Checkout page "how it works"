@@ -1,0 +1,100 @@
+Checkout page How It Works
+
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vad händer efter betalning?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333;
+        }
+        .checkout-info {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .checkout-info h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+        .checkout-info p {
+            font-size: 1em;
+            color: #E60278;
+            margin-bottom: 40px;
+        }
+        .steps-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .step {
+            text-align: center;
+            width: 250px;
+        }
+        .step-number {
+            display: inline-block;
+            font-size: 1em;
+            font-weight: bold;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            margin-bottom: 15px;
+            color: white;
+            background-color: #E60278;
+            box-shadow: 0 0 10px rgba(230, 2, 120, 0.6);
+        }
+        .step-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .step-description {
+            font-size: 0.95em;
+            color: #555555;
+        }
+    </style>
+</head>
+<body>
+    <div class="checkout-info">
+        <h1>Vad händer efter betalning?</h1>
+        <p>• Din betalning är trygg och hanteras säkert •</p>
+        
+        <div class="steps-container">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-title">Betalningen tas emot</div>
+                <div class="step-description">
+                    Din betalning behandlas och hålls säkert av oss tills tjänsten är slutförd.
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-title">Säljaren börjar arbeta</div>
+                <div class="step-description">
+                    Säljaren får en notifikation om din beställning och börjar arbeta på den direkt.
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-title">Bekräfta & Slutför</div>
+                <div class="step-description">
+                    När du är nöjd med resultatet bekräftar du leveransen och betalningen släpps till säljaren.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
