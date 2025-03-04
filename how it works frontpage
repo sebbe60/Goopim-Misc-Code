@@ -1,0 +1,107 @@
+How it works
+
+
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Så fungerar det</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333;
+        }
+        .how-it-works {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .how-it-works h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+        .how-it-works p {
+            font-size: 1em;
+            color: #E60278; /* Pink for emphasis */
+            margin-bottom: 40px;
+        }
+        .steps-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start; /* Aligns text to the top */
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .step {
+            text-align: center;
+            width: 250px; /* Adjust width as needed */
+        }
+        .step-number {
+            display: inline-block;
+            font-size: 1em; /* Same text size */
+            font-weight: bold;
+            border-radius: 50%;
+            width: 40px; /* Smaller circle */
+            height: 40px; /* Smaller circle */
+            line-height: 40px; /* Centers text vertically */
+            margin-bottom: 15px;
+            color: white; /* Text color */
+            background-color: #E60278; /* Pink for all steps */
+            box-shadow: 0 0 10px rgba(230, 2, 120, 0.6); /* Glowing pink effect */
+        }
+        .step-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .step-description {
+            font-size: 0.95em;
+            color: #555555; /* Subtle gray for descriptions */
+        }
+    </style>
+</head>
+<body>
+    <div class="how-it-works">
+        <h1>Få dina tjänster utförda snabbt och säkert</h1>
+        <p>• Betala bara när du är nöjd med resultatet •</p> <!-- Updated selling point -->
+        
+        <!-- Steps Container -->
+        <div class="steps-container">
+
+            <!-- Step 1 -->
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-title">Välj en tjänst</div>
+                <div class="step-description">
+                    Bläddra bland hundratals tjänster från begåvade säljare. Hitta den perfekta tjänsten för dina behov och lägg en beställning.
+                </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-title">Tjänsten utförs</div>
+                <div class="step-description">
+                    Säljaren börjar arbeta på din beställning medan dina pengar hålls säkert tills du bekräftar att jobbet är klart.
+                </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-title">Bekräfta & Betala</div>
+                <div class="step-description">
+                    När du är nöjd med tjänsten, bekräfta att jobbet är slutfört och betalningen släpps till säljaren.
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
